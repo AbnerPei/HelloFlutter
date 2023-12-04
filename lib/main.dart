@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/Demos/listview_demo.dart';
 import 'package:hello_flutter/Demos/text_demo.dart';
+import 'package:hello_flutter/Demos/container_demo.dart';
 
 void main() {
   runApp(const App());
@@ -16,7 +17,9 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: const Text("Hello Flutter")
         ),
-        body: const TextDemo(),
+        // body: const ListViewDemo(),
+        // body: const TextDemo(),
+        body: const ContainerDemo(),
       )
     );
   }
